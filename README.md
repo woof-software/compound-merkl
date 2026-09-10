@@ -36,13 +36,29 @@ the open-source calculation scripts. See the
 [`HOWTO.md`](https://github.com/woof-software/compound-aggregator/blob/main/HOWTO.md)
 for how to run them and reproduce the snapshots in this repo.
 
+**Address screening:** the 104 sanctioned/OFAC-flagged addresses listed in
+[`blacklist.csv`](./blacklist.csv) are screened out and excluded from all allocations.
+
 ---
 
 ## Campaigns / snapshots in this repo
 
-| File | Version | Network | Market | Start block | End block | Accrued (COMP) | Distributed (COMP) |
-| ---- | ------- | ------- | ------ | ----------- | --------- | -------------- | ------------------ |
-| [`rewards-v3-mainnet-0xc00e94cb-15331586-25844234.merkl.json`](./snapshots/rewards-v3-mainnet-0xc00e94cb-15331586-25844234.merkl.json) | V3 | Ethereum | cUSDCv3 (`0xc3d6…cdc3`) | `15331586` | `25844234` | `TBD` | `TBD` |
+| File | Version | Network | Market | Start block | End block | Migrated to Merkl (COMP) |
+| ---- | ------- | ------- | ------ | ----------- | --------- | ------------------------ |
+| [`rewards-v2-mainnet-0xc00e94cb-7710671-25904935.merkl.json`](./snapshots/rewards-v2-mainnet-0xc00e94cb-7710671-25904935.merkl.json) | V2 | Ethereum | 18 markets | `7710671` | `25904935` | 40,419.457380 |
+| [`rewards-v3-mainnet-0xc00e94cb-15331586-25935672.merkl.json`](./snapshots/rewards-v3-mainnet-0xc00e94cb-15331586-25935672.merkl.json) | V3 | Ethereum | 6 markets | `15331586` | `25935672` | 52,528.336790 |
+| [`rewards-v3-arbitrum-0x354a6da3-87335214-503170370.merkl.json`](./snapshots/rewards-v3-arbitrum-0x354a6da3-87335214-503170370.merkl.json) | V3 | Arbitrum | 4 markets | `87335214` | `503170370` | 7,278.807262 |
+| [`rewards-v3-optimism-0x7e7d4467-118406276-156654460.merkl.json`](./snapshots/rewards-v3-optimism-0x7e7d4467-118406276-156654460.merkl.json) | V3 | Optimism | 3 markets | `118406276` | `156654460` | 1,499.371428 |
+| [`rewards-v3-base-0x9e1028f5-2197588-51059175.merkl.json`](./snapshots/rewards-v3-base-0x9e1028f5-2197588-51059175.merkl.json) | V3 | Base | 5 markets | `2197588` | `51059175` | 3,658.691270 |
+| [`rewards-v3-polygon-0x8505b9d2-39412367-93468230.merkl.json`](./snapshots/rewards-v3-polygon-0x8505b9d2-39412367-93468230.merkl.json) | V3 | Polygon | 2 markets | `39412367` | `93468230` | 625.248629 |
+| [`rewards-v3-unichain-0xdf78e4f0-9170496-58159371.merkl.json`](./snapshots/rewards-v3-unichain-0xdf78e4f0-9170496-58159371.merkl.json) | V3 | Unichain | 2 markets | `9170496` | `58159371` | 917.769048 |
+
+**Total migrated to Merkl:** **106,927.681807 COMP** across 361,271 (V2) + 230,713 (V3) recipient entries.
+
+> "Migrated to Merkl" is the **remaining** entitlement per snapshot — total COMP accrued
+> over the period minus COMP already claimed through the legacy on-chain contracts. Each
+> figure is reproducible from the matching [`audit/`](./audit) file
+> (`total.remaining` / `allocationTotal`).
 
 ---
 
