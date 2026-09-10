@@ -83,15 +83,15 @@ The only official Merkl app URL is **[app.merkl.xyz](https://app.merkl.xyz)**.
 
 ### Previously accrued rewards (legacy migration)
 
-| Version | Network  | Merkl campaign | Start time  | End time    |
-| ------- | -------- | -------------- | ----------- | ----------- |
-| V2      | Ethereum | [Compound V2 Legacy Rewards — Ethereum](https://app.merkl.xyz/opportunities/240810265119821866) | 09 Sep 2026 | 08 Nov 2026 |
-| V3      | Ethereum | [Compound V3 Legacy Rewards — Ethereum](https://app.merkl.xyz/opportunities/3376384779871485591) | 09 Sep 2026 | 08 Mar 2027 |
-| V3      | Arbitrum | [Compound V3 Legacy Rewards — Arbitrum](https://app.merkl.xyz/opportunities/7568883014371172444) | 09 Sep 2026 | 08 Mar 2027 |
-| V3      | Optimism | [Compound V3 Legacy Rewards — Optimism](https://app.merkl.xyz/opportunities/11731508864137097942) | 09 Sep 2026 | 08 Mar 2027 |
-| V3      | Base     | [Compound V3 Legacy Rewards — Base](https://app.merkl.xyz/opportunities/16757461354196018516) | 09 Sep 2026 | 08 Mar 2027 |
-| V3      | Polygon  | [Compound V3 Legacy Rewards — Polygon](https://app.merkl.xyz/opportunities/2840847057714888842) | 09 Sep 2026 | 08 Mar 2027 |
-| V3      | Unichain | [Compound V3 Legacy Rewards — Unichain](https://app.merkl.xyz/opportunities/3642758435750332018) | 09 Sep 2026 | 08 Mar 2027 |
+| Version | Network  | Merkl campaign | Start time            | End time              |
+| ------- | -------- | -------------- | --------------------- | --------------------- |
+| V2      | Ethereum | [Compound V2 Legacy Rewards — Ethereum](https://app.merkl.xyz/opportunities/240810265119821866) | 2026-09-10T22:00:00Z | 2026-11-10T22:00:00Z |
+| V3      | Ethereum | [Compound V3 Legacy Rewards — Ethereum](https://app.merkl.xyz/opportunities/3376384779871485591) | 2026-09-10T22:00:00Z | 2027-03-10T22:00:00Z |
+| V3      | Arbitrum | [Compound V3 Legacy Rewards — Arbitrum](https://app.merkl.xyz/opportunities/7568883014371172444) | 2026-09-10T22:00:00Z | 2027-03-10T22:00:00Z |
+| V3      | Optimism | [Compound V3 Legacy Rewards — Optimism](https://app.merkl.xyz/opportunities/11731508864137097942) | 2026-09-10T22:00:00Z | 2027-03-10T22:00:00Z |
+| V3      | Base     | [Compound V3 Legacy Rewards — Base](https://app.merkl.xyz/opportunities/16757461354196018516) | 2026-09-10T22:00:00Z | 2027-03-10T22:00:00Z |
+| V3      | Polygon  | [Compound V3 Legacy Rewards — Polygon](https://app.merkl.xyz/opportunities/2840847057714888842) | 2026-09-10T22:00:00Z | 2027-03-10T22:00:00Z |
+| V3      | Unichain | [Compound V3 Legacy Rewards — Unichain](https://app.merkl.xyz/opportunities/3642758435750332018) | 2026-09-10T22:00:00Z | 2027-03-10T22:00:00Z |
 
 ### Season 1 (post-season claim campaign)
 
