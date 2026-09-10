@@ -29,6 +29,21 @@ snapshots/
 
 ---
 
+## Git LFS required
+
+The large per-user audit datasets under [`audit/`](./audit) are stored with
+[Git LFS](https://git-lfs.github.com). Install and initialize it **before**
+cloning so you get the real files instead of small pointer stubs:
+
+```
+git lfs install
+git clone git@github.com:woof-software/compound-merkl.git
+```
+
+If you already cloned without LFS, run `git lfs install` then `git lfs pull`.
+
+---
+
 ## How the data in this repo is generated
 
 **Generating repository:** [`woof-software/compound-aggregator`](https://github.com/woof-software/compound-aggregator) —
